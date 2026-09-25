@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-#"""
-#Hafta 2 dersinde kurduğumuz iki modeli (Hücre 5 ve Hücre 5-Devam) birebir
-#aynı kodla eğitir ve Streamlit uygulamasının kullanacağı dosyalara kaydeder.
-#"""
+"""
+Hafta 2 dersinde kurduğumuz iki modeli (Hücre 5 ve Hücre 5-Devam) birebir
+aynı kodla eğitir ve Streamlit uygulamasının kullanacağı dosyalara kaydeder.
+"""
 import json
 import joblib
 import pandas as pd
@@ -12,7 +12,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 
 DATA_PATH = "insaat_proje_verileri.csv"
 OUT_DIR = "models"
-
+os.makedirs(OUT_DIR, exist_ok=True)
 df = pd.read_csv(DATA_PATH)
 
 # ---------------------------------------------------------------
