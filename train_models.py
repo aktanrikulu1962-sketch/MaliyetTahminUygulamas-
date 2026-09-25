@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""
-Hafta 2 dersinde kurduğumuz iki modeli (Hücre 5 ve Hücre 5-Devam) birebir
-aynı kodla eğitir ve Streamlit uygulamasının kullanacağı dosyalara kaydeder.
-"""
+#"""
+#Hafta 2 dersinde kurduğumuz iki modeli (Hücre 5 ve Hücre 5-Devam) birebir
+#aynı kodla eğitir ve Streamlit uygulamasının kullanacağı dosyalara kaydeder.
+#"""
 import json
 import joblib
 import pandas as pd
