@@ -10,8 +10,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
 
-DATA_PATH = "/mnt/user-data/uploads/insaat_proje_verileri.csv"
-OUT_DIR = "/home/claude/streamlit_app/models"
+DATA_PATH = "insaat_proje_verileri.csv"
+OUT_DIR = "models"
 
 df = pd.read_csv(DATA_PATH)
 
