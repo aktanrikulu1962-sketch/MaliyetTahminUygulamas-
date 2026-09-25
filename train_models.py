@@ -6,6 +6,7 @@ aynı kodla eğitir ve Streamlit uygulamasının kullanacağı dosyalara kaydede
 import json
 import joblib
 import pandas as pd
+import os
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
